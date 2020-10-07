@@ -1,2 +1,6 @@
-package shoesshop;public interface IItem {
+package shoesshop;
+
+public interface IItem {
+    public double getPrice();
+    public int getId();
 }
